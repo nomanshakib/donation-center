@@ -1,0 +1,329 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* --------------Header-Section-Start-----------------  */
+
+#header-section{
+    background-image: url(images/Children.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+.banner-content{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    display: flex;
+}
+
+.banner-heading{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner-text{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 210px;
+    text-align: center;
+}
+
+.donate-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* --------------Header-Section-End-----------------  */
+
+/* --------------Donate-Today-Area-Start-----------------  */
+
+#donate-today{
+    padding: 40px 0;
+}
+
+.donate-section-title{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ee296a;
+}
+
+.donate-section-text{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 290px;
+    line-height: 26px;
+}
+
+/* --------------Donate-Amount-----------------  */
+
+.donate-amount{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+}
+
+.amount-style{
+    width: 140px;
+    height: 100px;
+    background-color: #ee296a;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color:white;
+    text-size-adjust: 18px;
+}
+
+.select-amount{
+    background-image: linear-gradient(orange, tomato);;
+    border: 2px solid #000000;
+    color: white;
+}
+
+/* --------------Donate-Amount-Input-----------------  */
+
+.amount-input-section{
+    width: 50%;
+    margin: auto;
+}
+
+.amount-input-section form{
+    display: flex;
+    flex-direction: column;
+}
+
+.amount-input{
+    padding: 15px 10px;
+    margin: 5px 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #dadada;
+}
+
+.amount-input::placeholder{
+    text-align: center;
+    font-size: 16px;
+    border: none;
+}
+
+.donate-sent-button{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+/* --------------Donate-Today-Area-End-----------------  */
+
+/* --------------Our-Donate-Plan-Area-start-----------------  */
+
+.donation-plan-head-title {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ee296a;
+}
+
+.donation-plan-head-text {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 290px;
+    line-height: 26px;
+}
+
+/* --------------Our-Donate-Plan-Box-Area------------------  */
+
+#donation-plan-section{
+    padding: 20px 30px;
+}
+
+.donate-plan-box-flex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.donate-plan-box-shadow{
+    width: 400px;
+    padding: 60px 20px;
+    margin: 5px;
+    border-radius: 70px;
+    box-shadow: 10px 10px 50px grey;
+}
+
+.icon-positon{
+    margin-bottom: 20px;
+}
+.plan-box-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.plan-box-text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-top: 5px;
+}
+
+/* --------------Our-Donate-Plan-Area-End-----------------  */
+
+/* ------Succesfully-Done-Upcoming-Event-Section-Area-Start-------  */
+
+
+#Upcoming-event-section{
+    padding: 40px 30px;
+}
+
+.event-section-title{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ee296a;
+}
+
+.event-section-text{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 150px;
+    line-height: 26px;
+}
+
+.event-picture{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.event-picture img{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* ------Succesfully-Done-Upcoming-Event-Section-Area-End-------  */
+
+/* -----------------Get-Our-Updates-Section-started------------------  */
+
+#get-our-updates {
+    padding: 40px 30px;
+}
+
+.get-updates-title {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ee296a;
+}
+
+.get-updates-text {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 200px;
+    line-height: 26px;
+}
+
+.Subscribe-Button-container{
+    width: 70%;
+    margin: 40px auto;
+    background-color: #ee296a;
+    border-radius: 30px;
+}
+
+.Subscribe-Button-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.email-input{
+    padding: 15px 50px;
+    width: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid #ff5959;
+    margin-right: -3px;
+    text-align: center;
+}
+
+.email-input ::placeholder{
+    font-size: 15px;
+}
+
+.subscribe-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: #fff;
+    padding: 15px 35px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 13px;
+    margin-left: -3px;
+}
+
+/* -----------------Get-Our-Updates-Section-End------------------  */
+
+/* -----------------------Footer-Area-Start----------------------  */
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    padding: 50px 0;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* -----------------------Footer-Area-End----------------------  */
